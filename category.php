@@ -11,7 +11,7 @@ $t = get_the_title();
 $time = get_field('seminar_time', get_the_ID());
 $p = get_field('seminar_url', get_the_ID());
 ?>
-<li class="list-group-item rounded-0">a
+<li class="list-group-item rounded-0">
 <a class="row mx-0" href="<?php echo $p; ?>" class="text-decoration-none" target="_blank" rel="nofollow">
 <time class="px-md-3 px-0 col-md-2" datetime="<?php the_time('Y-m-d'); ?>" class="d-block text-secondary mb-1"><?php echo $time; ?></time>
 <p class="px-md-3 px-0 col-md-10 m-0 text-dark"><?php echo $t; ?></p>
