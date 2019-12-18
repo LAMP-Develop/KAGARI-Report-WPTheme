@@ -4,7 +4,7 @@ $wp_url = get_template_directory_uri(); ?>
 </main>
 <!-- フッター -->
 <footer id="footer" class="bg-white">
-<section class="py-md-5 py-4 bg-dark2">
+<section class="py-md-5 py-4 sec-bg-dark">
 <div class="container">
 <div class="row mx-0">
 <div class="col-md col-6 mb-md-0 mb-3">
