@@ -24,7 +24,7 @@ get_header(); ?>
 <div class="card h-100 border-0 shadow-sm position-relative">
 <div class="card-body">
 <div class="text-center mt-3 mb-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_ga.svg" alt="Google Analytics">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/Icon_ga.svg" alt="Google Analytics">
 </div>
 <h3 class="card-title font-weight-bold text-center h5 text-dark">Google Analyticsと<br>連携するだけ</h3>
 <p>タグの埋め込みは不要！お使いのGoogleアカウントと連携してすぐにご利用いただけます</p>
@@ -52,7 +52,7 @@ get_header(); ?>
 <div class="card h-100 border-0 shadow-sm position-relative">
 <div class="card-body">
 <div class="text-center mt-3 mb-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_report.svg" alt="レポート">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/Icon_report.svg" alt="レポート">
 </div>
 <h3 class="card-title font-weight-bold text-center h5 text-dark">そのまま使える<br>レポートが自動で完成</h3>
 <p>報告業務にすぐ使えるレポートがそのまま印刷できるPDF形式でダウンロードできます</p>
