@@ -62,7 +62,7 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>検索順位/キーワードのレポーティング</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>ページごとのSEO分析</p>
 <div class="mt-4">
-<a class="btn btn-outline-primary" href="https://seo.kagari.ai" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/seo/" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>
@@ -114,7 +114,7 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>検索順位/キーワードのレポーティング</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>ページごとのSEO分析</p>
 <div class="mt-4">
-<a class="btn btn-outline-primary" href="https://seo.kagari.ai" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/seo/" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>
@@ -166,7 +166,7 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>検索順位/キーワードのレポーティング</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>ページごとのSEO分析</p>
 <div class="mt-4">
-<a class="btn btn-outline-primary" href="https://seo.kagari.ai" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/seo/" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>

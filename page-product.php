@@ -264,7 +264,7 @@ get_header(); ?>
 </div>
 <p class="card-text">クライアントに提出するレポートを自動作成して業務効率化。定期的な改善提案で継続受注につなげる。</p>
 <div class="mt-4">
-<a href="https://seo.kagari.ai" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a href="http://lamp-inc.sakura.ne.jp/kagari_re/seo/" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>
