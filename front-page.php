@@ -7,8 +7,7 @@ get_header(); ?>
 <div class="row">
 <div class="col-lg-7 mb-4 mb-lg-0">
 <h1 class="text-dark font-weight-bold mb-4">WEBサイトの<br>アクセス解析レポートを<br>AIが自動作成</h1>
-<!-- <a class="btn btn-primary" href="#" role="button"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a> -->
-<a class="btn btn-primary" href="https://kagari.ai/report-demo/pdf/kagari-reports.pdf" target="_blank" role="button"><i class="fas fa-arrow-alt-circle-down mr-2"></i>サンプルをダウンロード<small>(PDF)</small></a>
+<a class="btn btn-primary" href="https://reporting.kagari.ai/register" target="_blank" role="button"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
 </div>
 <div class="col-lg-5 text-center pt-lg-5 pt-xl-0">
 <img class="img mt-lg-n5" src="<?php echo $wp_url; ?>/lib/images/mv.png" srcset="<?php echo $wp_url; ?>/lib/images/mv.png 1x, <?php echo $wp_url; ?>/lib/images/mv@2x.png 2x" alt="レポート画像">
