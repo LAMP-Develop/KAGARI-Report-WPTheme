@@ -52,10 +52,10 @@ gtag('config', 'UA-79537153-12');
 </ul>
 <ul class="navbar-nav ml-auto mt-md-0 mt-3">
 <li class="nav-item mr-md-4">
-<a class="nav-link text-primary" href="https://analysis.kagari.ai/login" target="_blank">ログイン</a>
+<a class="nav-link text-primary" href="https://reporting.kagari.ai/login" target="_blank">ログイン</a>
 </li>
 <li class="nav-item">
-<a class="btn btn-sm btn-primary" href="<?php echo $home; ?>/contact/"><i class="fab fa-google mr-2"></i>無料トライアル</a>
+<a class="btn btn-sm btn-primary" href="https://reporting.kagari.ai/register"><i class="fab fa-google mr-2"></i>無料トライアル</a>
 </li>
 </ul>
 </div>
