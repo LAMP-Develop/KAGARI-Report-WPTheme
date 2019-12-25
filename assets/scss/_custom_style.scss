@@ -38,6 +38,10 @@
   }
 }
 
+body {
+  line-height: 1.75;
+}
+
 .navbar {
   @include media-breakpoint-up(sm) {
     padding: ($font-size-base) 0;
@@ -133,11 +137,14 @@
 .service-card {
   cursor: pointer;
   transition: .2s;
+  border: solid 1px transparent;
 
   &.active,
   &:hover {
-    box-shadow: $shadow-base, $shadow-add-sm;
+    box-shadow: $shadow-base, $shadow-add;
+    border: 1px solid rgba(0, 117, 255, 0.5);
   }
+
   .opacity-item {
     display: inline-block;
     width: $font-size-lg*1.5;
@@ -279,6 +286,11 @@ div.wpcf7 {
   @include media-breakpoint-down(sm) {
     width: 100%;
   }
+}
+
+a:hover {
+  color: $primary;
+  text-decoration: underline;
 }
 
 #sample {

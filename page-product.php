@@ -156,8 +156,8 @@ get_header(); ?>
 <i data-feather="mail" class="feather-card"></i>
 </div>
 <div class="txt">
-<p class="font-weight-bold mb-2 h5 text-dark">メールで自動送信</p>
-<p class="m-0">レポートを毎月自動で任意のメールアドレスで受け取れます。</p>
+<p class="font-weight-bold mb-2 h5 text-dark">レポートを自動で受信</p>
+<p class="m-0">レポートは指定したメールアドレスで任意の頻度で自動受信できます。</p>
 </div>
 </div>
 </div>
@@ -189,7 +189,7 @@ get_header(); ?>
 <i data-feather="trending-up" class="feather-card"></i>
 </div>
 <div class="txt">
-<p class="font-weight-bold mb-2 h5 text-dark">前の期間のデータと比較</p>
+<p class="font-weight-bold mb-2 h5 text-dark">過去と現在のデータを一括比較</p>
 <p class="m-0">先月や先週のデータと比較してアクセス状況の変化を知ることができます。</p>
 </div>
 </div>
@@ -222,7 +222,7 @@ get_header(); ?>
 <i data-feather="hexagon" class="feather-card"></i>
 </div>
 <div class="txt">
-<p class="font-weight-bold mb-2 h5 text-dark">企業ロゴを表紙に表示</p>
+<p class="font-weight-bold mb-2 h5 text-dark">ロゴを表紙に表示</p>
 <p class="m-0">自由にロゴを登録して、レポートの表紙に載せることができます。</p>
 </div>
 </div>
@@ -245,7 +245,7 @@ get_header(); ?>
 </div>
 <div class="txt">
 <p class="font-weight-bold mb-2 h5 text-dark">用語の解説</p>
-<p class="m-0">専門知識がなくても読みやすいように、用語の説明がレポートに表示されます。</p>
+<p class="m-0">専門知識がなくても読みやすいように、用語の解説が載っています。</p>
 </div>
 </div>
 </div>
