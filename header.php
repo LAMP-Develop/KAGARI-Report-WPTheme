@@ -50,7 +50,7 @@ gtag('config', 'UA-79537153-12');
 </div>
 </li>
 </ul>
-<ul class="navbar-nav ml-auto mt-md-0 mt-3">
+<ul class="navbar-nav align-items-center ml-auto mt-md-0 mt-3">
 <li class="nav-item mr-md-4">
 <a class="nav-link text-primary" href="https://reporting.kagari.ai/login" target="_blank">ログイン</a>
 </li>
