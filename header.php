@@ -44,7 +44,7 @@ gtag('config', 'UA-79537153-12');
 <li class="nav-item"><a class="nav-link text-dark" href="http://lamp-inc.sakura.ne.jp/kagari_re/master/seminar/" target="_blank">セミナー情報</a></li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ヘルプ</a>
-<div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+<div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown-2">
 <a class="dropdown-item" href="http://lamp-inc.sakura.ne.jp/kagari_re/master/faq/" target="_blank">よくあるご質問</a>
 <a class="dropdown-item" href="http://lamp-inc.sakura.ne.jp/kagari_re/master/contact/" target="_blank">お問い合わせ</a>
 </div>
