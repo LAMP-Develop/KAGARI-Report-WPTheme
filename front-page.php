@@ -223,22 +223,19 @@ get_header(); ?>
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">セミナー情報</h2>
 <ul class="list-group">
 <?php
-$arg = [
-  'posts_per_page' => 5,
-  'orderby' => 'date',
-  'order' => 'DESC',
-  'category_name' => 'seminar'
-];
-$posts = get_posts($arg);
-foreach ($posts as $post):
-setup_postdata($post);
-$t = get_the_title();
-$time = get_field('seminar_time', get_the_ID());
-$p = get_field('seminar_url', get_the_ID()); ?>
+$url = "https://lamp-inc.sakura.ne.jp/kagari_re/master/wp-json/wp/v2/seminar?_embed&filter[posts_per_page]=3";
+$json = file_get_contents($url);
+$arr = json_decode($json, true);
+foreach ($arr as $data):
+$title = $data["title"]["rendered"];
+$date = date('Y-m-d', strtotime($data["date"]));
+$link = $data["link"];
+$thum = $data["_embedded"]["wp:featuredmedia"][0]["media_details"]["sizes"]["medium"]["source_url"];
+?>
 <li class="list-group-item rounded-0">
-<a class="row mx-0" href="<?php echo $p; ?>" class="text-decoration-none" target="_blank" rel="nofollow">
-<time class="px-md-3 px-0 col-md-2" datetime="<?php the_time('Y-m-d'); ?>" class="d-block text-secondary mb-1"><?php echo $time; ?></time>
-<p class="px-md-3 px-0 col-md-10 m-0 text-dark"><?php echo $t; ?></p>
+<a class="row mx-0" href="<?php echo $link; ?>" class="text-decoration-none" target="_blank" rel="nofollow">
+<time class="px-md-3 px-0 col-md-2" datetime="<?php echo $date; ?>" class="d-block text-secondary mb-1"><?php echo $date; ?></time>
+<p class="px-md-3 px-0 col-md-10 m-0 text-dark"><?php echo $title; ?></p>
 </a>
 </li>
 <?php endforeach; wp_reset_postdata(); ?>
