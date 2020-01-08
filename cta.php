@@ -8,7 +8,7 @@ $wp_url = get_template_directory_uri(); ?>
 <p>サンプルレポート配布中
 <br>Google Analyticsと連携して、レポートの自動作成をご体験ください。</p>
 <div class="mt-4">
-<a class="btn btn-primary" href="https://kagari.ai/report-demo/pdf/kagari-reports.pdf" target="_blank" role="button"><i class="fas fa-arrow-alt-circle-down mr-2"></i>サンプルをダウンロード<small>(PDF)</small></a>
+<a class="btn btn-primary" href="https://reporting.kagari.ai/register" target="_blank" role="button">まずは無料でお試しください</a>
 </div>
 </div>
 <div class="col-lg-5 d-none d-lg-block">

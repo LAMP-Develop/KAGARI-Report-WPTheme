@@ -6,11 +6,13 @@ get_header(); ?>
 <div class="container">
 <div class="row">
 <div class="col-lg-7 mb-4 mb-lg-0">
-<h1 class="text-dark font-weight-bold mb-4">WEBサイトの<br>アクセス解析レポートを<br>AIが自動作成</h1>
+<h1 class="text-dark font-weight-bold mb-4">WEBサイトの<br>アクセス解析レポートを<br>30秒で自動作成</h1>
+<p>KAGARI Reportは、アクセス解析レポートが<br>自動作成できるWEB担当者向け業務効率化ツールです。</p>
 <a class="btn btn-primary" href="https://reporting.kagari.ai/register" target="_blank" role="button"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
+<a class="btn btn-outline-primary ml-lg-2 mt-lg-0 mt-2" href="#sample-pdf" role="button">サンプルを見る</a>
 </div>
-<div class="col-lg-5 text-center pt-lg-5 pt-xl-0">
-<img class="img mt-lg-n5" src="<?php echo $wp_url; ?>/lib/images/mv.png" srcset="<?php echo $wp_url; ?>/lib/images/mv.png 1x, <?php echo $wp_url; ?>/lib/images/mv@2x.png 2x" alt="レポート画像">
+<div class="col-lg-5 text-center">
+<img class="img mt-lg-3" src="<?php echo $wp_url; ?>/lib/images/mv.png" srcset="<?php echo $wp_url; ?>/lib/images/mv.png 1x, <?php echo $wp_url; ?>/lib/images/mv@2x.png 2x" alt="レポート画像">
 </div>
 </div>
 </div>
@@ -40,8 +42,8 @@ get_header(); ?>
 <div class="text-center mt-3 mb-4">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_ai.svg" alt="AI">
 </div>
-<h3 class="card-title font-weight-bold text-center h5 text-dark">改善施策を<br>AIが自動で提案</h3>
-<p>数多くのサイトの解析を手掛けたノウハウに基づいて、的確な改善施策を自動で提案します</p>
+<h3 class="card-title font-weight-bold text-center h5 text-dark">解析結果を<br>AIが自動で解説</h3>
+<p>数多くのサイトの解析を手掛けたノウハウに基づいて、各項目の総評コメントを自動で出力します。</p>
 <div class="text-center">
 <a href="<?php echo $home; ?>/product#funclist" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
@@ -66,7 +68,7 @@ get_header(); ?>
 </div>
 </div>
 </section>
-<section class="sec sec-bg-gray overflow-hidden">
+<section id="sample-pdf" class="sec sec-bg-gray overflow-hidden">
 <div class="container">
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">見やすく、使いやすいレポートを<br class="d-none d-md-block">すぐに作成します</h2>
 <div class="row">
@@ -96,7 +98,7 @@ get_header(); ?>
 <i class="fas fa-share-alt opacity-color-purple-2"></i>
 </span>
 <p class="font-weight-bold h5 text-dark my-3">流入元</p>
-<p class="text-left m-0 d-none d-md-block">ユーザーの訪れる経路を知る</p>
+<p class="text-left m-0 d-none d-md-block">ユーザーが訪れた経路を知る</p>
 </div>
 </div>
 <div class="col-6 col-md-4 p-1 p-md-2">
@@ -165,11 +167,11 @@ get_header(); ?>
 <div class="card h-100 border-0 shadow-sm">
 <div class="card-body">
 <div class="text-center mt-3 mb-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/customer01.svg" alt="制作会社">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/customer01.svg" alt="事業会社">
 </div>
-<p class="text-center font-weight-bold text-dark h4">制作会社</p>
-<p class="text-center text-dark">営業担当者様</p>
-<p class="text-left m-0">レポート作成を効率化し、定期的に改善提案をすることで継続受注につながります。</p>
+<p class="text-center font-weight-bold text-dark h4">事業会社</p>
+<p class="text-center text-dark">WEB担当者様</p>
+<p class="text-left m-0">手間がかかる社内報告用の解析レポートを自動化することで業務の効率化がはかれます。</p>
 </div>
 </div>
 </div>
@@ -177,11 +179,11 @@ get_header(); ?>
 <div class="card h-100 border-0 shadow-sm">
 <div class="card-body">
 <div class="text-center mt-3 mb-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/customer02.svg" alt="事業会社">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/customer02.svg" alt="制作・広告会社">
 </div>
-<p class="text-center font-weight-bold text-dark h4">事業会社</p>
-<p class="text-center text-dark">WEB担当者様</p>
-<p class="text-left m-0">伝えにくかった解析レポートをお客様に簡潔に伝えやすくなります。</p>
+<p class="text-center font-weight-bold text-dark h4">制作・広告会社</p>
+<p class="text-center text-dark">営業担当者様</p>
+<p class="text-left m-0">クライアントに対しての報告を簡潔にすることで伝えにくかった解析レポートをお客様に簡潔に伝えやすくなります。</p>
 </div>
 </div>
 </div>
@@ -192,7 +194,7 @@ get_header(); ?>
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/customer03.svg" alt="EC運営会社">
 </div>
 <p class="text-center font-weight-bold text-dark h4">EC運営会社</p>
-<p class="text-center text-dark">WEB担当者様</p>
+<p class="text-center text-dark">マーケティング担当者様</p>
 <p class="text-left m-0">サイト全体の解析をひと目でわかりやすく見ることができ、手軽にアクセス解析ができます。</p>
 </div>
 </div>
@@ -234,7 +236,7 @@ $thum = $data["_embedded"]["wp:featuredmedia"][0]["media_details"]["sizes"]["med
 ?>
 <li class="list-group-item rounded-0">
 <a class="row mx-0" href="<?php echo $link; ?>" class="text-decoration-none" target="_blank" rel="nofollow">
-<time class="px-md-3 px-0 col-md-2" datetime="<?php echo $date; ?>" class="d-block text-secondary mb-1"><?php echo $date; ?></time>
+<!-- <time class="px-md-3 px-0 col-md-2" datetime="<?php echo $date; ?>" class="d-block text-secondary mb-1"><?php echo $date; ?></time> -->
 <p class="px-md-3 px-0 col-md-10 m-0 text-dark"><?php echo $title; ?></p>
 </a>
 </li>
@@ -256,7 +258,7 @@ $thum = $data["_embedded"]["wp:featuredmedia"][0]["media_details"]["sizes"]["med
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/logo_seo.svg" alt="KAGARI SEO">
 </div>
 <div class="card-title">
-<h3 class="text-dark font-weight-bold">ページごとの比較に特化した<br class="d-xl-block d-none">SEO流入分析ツール</h3>
+<h3 class="text-dark font-weight-bold">ページ毎のSEO分析に特化した<br class="d-xl-block d-none">上級者向けツール</h3>
 </div>
 <p class="card-text">Google AnalyticsとSearch Consoleのデータを1つの画面で管理。大量のページを一度に解析できます。</p>
 <div class="mt-4">
@@ -277,11 +279,11 @@ $thum = $data["_embedded"]["wp:featuredmedia"][0]["media_details"]["sizes"]["med
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/logo_consulting.svg" alt="KAGARI Marketing">
 </div>
 <div class="card-title">
-<h3 class="text-dark font-weight-bold">KAGARIのデータを活用した<br class="d-xl-block d-none">コンテンツマーケティング</h3>
+<h3 class="text-dark font-weight-bold">データからCVを創出する<br class="d-xl-block d-none">WEBコンサルティングサービス</h3>
 </div>
-<p class="card-text">KAGARIの解析データに基づいて、貴社の成長に合わせた最適なプランニングやコンテンツ制作を行います。</p>
+<p class="card-text">KAGARIの解析データに基づいて、貴社の成長に合わせた最適なコンサルティングを行います。</p>
 <div class="mt-4">
-<a href="https://marketing.kagari.ai" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a href="https://consulting.kagari.ai" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>

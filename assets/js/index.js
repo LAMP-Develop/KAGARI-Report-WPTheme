@@ -5,9 +5,21 @@ import '../scss/style.scss';
 import '../vendor/font-awesome/js/all.min.js';
 import 'bootstrap';
 
+// スムーススクロール
+$('a[href^=#]' + 'a:not(".nav-link")').on('click', function() {
+  var speed = 500;
+  var href = $(this).attr("href");
+  var target = $(href == "#" || href == "" ? 'html' : href);
+  var position = target.offset().top;
+  $('html, body').animate({
+    scrollTop: position
+  }, speed, 'swing');
+  return false;
+});
+
 // サンプル切り替え
-$('#sample-btn .service-card').click(function(){
-	var num = $('#sample-btn .service-card').index(this);
+$('#sample-btn .service-card').click(function() {
+  var num = $('#sample-btn .service-card').index(this);
   $('#sample-txt p').removeClass('active').eq(num).addClass('active');
   $('#sample img').removeClass('active').eq(num).addClass('active');
   $('.service-card').removeClass('active');
