@@ -4,9 +4,8 @@ $wp_url = get_template_directory_uri(); ?>
 <div class="container">
 <div class="row">
 <div class="col-lg-7 mb-4 mb-lg-0">
-<h2 class="font-size-lg text-center text-md-left text-dark font-weight-bold mb-4">WEBサイトの運用報告を<br class="d-md-none">KAGARIが効率化します</h2>
-<p>サンプルレポート配布中
-<br>Google Analyticsと連携して、レポートの自動作成をご体験ください。</p>
+<h2 class="font-size-lg text-center text-md-left text-dark font-weight-bold mb-4">まずは無料トライアルをお試しください</h2>
+<p>クレジットカード登録不要！<br>アカウント登録後すぐにすべての機能が10日間無料でお使いいただけます。</p>
 <div class="mt-4">
 <a class="btn btn-primary" href="https://reporting.kagari.ai/register" target="_blank" role="button">まずは無料でお試しください</a>
 </div>

@@ -19,7 +19,7 @@ get_header(); ?>
 </section>
 <section class="sec bg-success">
 <div class="container">
-<h2 class="font-size-lg text-white text-center font-weight-bold mb-md-5 mb-4">WEBサイトの運用報告をKAGARIが効率化します</h2>
+<h2 class="font-size-lg text-white text-center font-weight-bold mb-md-5 mb-4">時間と手間がかかるアクセス解析レポート作成作業を自動化</h2>
 <div class="row justify-content-center">
 <div class="row col-xl-10 px-0">
 <div class="col-md mb-md-0 mb-3">
@@ -29,7 +29,7 @@ get_header(); ?>
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/Icon_ga.svg" alt="Google Analytics">
 </div>
 <h3 class="card-title font-weight-bold text-center h5 text-dark">Google Analyticsと<br>連携するだけ</h3>
-<p>タグの埋め込みは不要！お使いのGoogleアカウントと連携してすぐにご利用いただけます</p>
+<p>タグの埋め込みは不要！お使いのGoogleAnalyticsアカウントと連携してすぐにご利用いただけます</p>
 <div class="text-center">
 <a href="<?php echo $home; ?>/product#funclist" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
@@ -40,10 +40,10 @@ get_header(); ?>
 <div class="card h-100 border-0 shadow-sm position-relative">
 <div class="card-body">
 <div class="text-center mt-3 mb-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_ai.svg" alt="AI">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/Icon_report.svg" alt="レポート">
 </div>
-<h3 class="card-title font-weight-bold text-center h5 text-dark">解析結果を<br>AIが自動で解説</h3>
-<p>数多くのサイトの解析を手掛けたノウハウに基づいて、各項目の総評コメントを自動で出力します。</p>
+<h3 class="font-weight-bold text-center h5 text-dark">そのまま使えるレポートを<br>指定の日時にメールで送信</h3>
+<p>報告業務に使えるPDF形式のレポートが指定の日時にメールで送信もしくは管理画面からダウンロードすることができます。</p>
 <div class="text-center">
 <a href="<?php echo $home; ?>/product#funclist" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
@@ -54,10 +54,10 @@ get_header(); ?>
 <div class="card h-100 border-0 shadow-sm position-relative">
 <div class="card-body">
 <div class="text-center mt-3 mb-4">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/Icon_report.svg" alt="レポート">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/icon_ai.svg" alt="AI">
 </div>
-<h3 class="card-title font-weight-bold text-center h5 text-dark">そのまま使える<br>レポートが自動で完成</h3>
-<p>報告業務にすぐ使えるレポートがそのまま印刷できるPDF形式でダウンロードできます</p>
+<h3 class="card-title font-weight-bold text-center h5 text-dark">解析結果をAIが<br>自動で解説</h3>
+<p>数多くのサイトの解析を手掛けたノウハウに基づいて、各項目の総評コメントを自動で出力します。</p>
 <div class="text-center">
 <a href="<?php echo $home; ?>/product#funclist" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
@@ -70,7 +70,7 @@ get_header(); ?>
 </section>
 <section id="sample-pdf" class="sec sec-bg-gray overflow-hidden">
 <div class="container">
-<h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">見やすく、使いやすいレポートを<br class="d-none d-md-block">すぐに作成します</h2>
+<h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">見やすくてわかりやすいレポートを<br class="d-none d-md-block">すぐにお届け</h2>
 <div class="row">
 <div class="col-lg order-2 order-lg-1">
 <div id="sample-btn" class="row text-center mx-0">
@@ -160,7 +160,7 @@ get_header(); ?>
 </section>
 <section class="sec sec-bg-dark">
 <div class="container">
-<h2 class="font-size-lg text-white text-center font-weight-bold mb-md-5 mb-4">レポートを自動化して様々な課題を解決します</h2>
+<h2 class="font-size-lg text-white text-center font-weight-bold mb-md-5 mb-4">アクセス解析を効率化することであらゆる効果の向上に</h2>
 <div class="row justify-content-center">
 <div class="row col-xl-10 px-0">
 <div class="col-md mb-md-0 mb-3">
@@ -171,7 +171,7 @@ get_header(); ?>
 </div>
 <p class="text-center font-weight-bold text-dark h4">事業会社</p>
 <p class="text-center text-dark">WEB担当者様</p>
-<p class="text-left m-0">手間がかかる社内報告用の解析レポートを自動化することで業務の効率化がはかれます。</p>
+<p class="text-left m-0">見方がわからなかったアクセス解析を簡単にわかりやすく実施できることで課題の発見につながります。</p>
 </div>
 </div>
 </div>
@@ -183,7 +183,7 @@ get_header(); ?>
 </div>
 <p class="text-center font-weight-bold text-dark h4">制作・広告会社</p>
 <p class="text-center text-dark">営業担当者様</p>
-<p class="text-left m-0">クライアントに対しての報告を簡潔にすることで伝えにくかった解析レポートをお客様に簡潔に伝えやすくなります。</p>
+<p class="text-left m-0">定期的なレポート報告による顧客満足度の向上、クライアントへの新たな提案機会の創出につながります。</p>
 </div>
 </div>
 </div>
@@ -195,7 +195,7 @@ get_header(); ?>
 </div>
 <p class="text-center font-weight-bold text-dark h4">EC運営会社</p>
 <p class="text-center text-dark">マーケティング担当者様</p>
-<p class="text-left m-0">サイト全体の解析をひと目でわかりやすく見ることができ、手軽にアクセス解析ができます。</p>
+<p class="text-left m-0">手間がかかる社内報告用のレポートを自動化することで作業時間を大幅に削減できます。</p>
 </div>
 </div>
 </div>
@@ -204,13 +204,10 @@ get_header(); ?>
 
 </div>
 </section>
-<!-- <section class="sec sec-bg-gray">
+<section class="sec sec-bg-gray">
 <div class="container">
-<h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">業種・業態を問わず様々なお客様に<br class="d-sm-block d-none">ご利用いただいています</h2>
-<?php get_template_part('works'); ?>
-<div class="mt-4 text-center">
-<a class="btn btn-outline-primary" href="<?php echo $home; ?>/works/" role="button">すべての事例をみる<i class="fas fa-chevron-right ml-2"></i></a>
-</div>
+<h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-4 mb-3">導入事例</h2>
+<p class="text-center">個人の方から、有名な大企業まで、業種業界を問わず多くのサイトでご利用いただいています。</p>
 </div>
 <div class="d-md-flex d-none justify-content-between align-items-center mt-5">
 <?php for ($i=1; $i<=8; $i++): ?>
@@ -219,7 +216,7 @@ get_header(); ?>
 </div>
 <?php endfor; ?>
 </div>
-</section> -->
+</section>
 <section class="sec sec-bg-gray">
 <div class="container">
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">セミナー情報</h2>
@@ -258,9 +255,9 @@ $thum = $data["_embedded"]["wp:featuredmedia"][0]["media_details"]["sizes"]["med
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/logo_seo.svg" alt="KAGARI SEO">
 </div>
 <div class="card-title">
-<h3 class="text-dark font-weight-bold">ページ毎のSEO分析に特化した<br class="d-xl-block d-none">上級者向けツール</h3>
+<h3 class="text-dark font-weight-bold">ページ毎のSEO分析に特化した<br class="d-xl-block d-none">マーケティングツール</h3>
 </div>
-<p class="card-text">Google AnalyticsとSearch Consoleのデータを1つの画面で管理。大量のページを一度に解析できます。</p>
+<p class="card-text">サイトにあるすべてのページの検索クエリと検索順位を可視化し、効率的にSEO分析を行うことができるツールです。</p>
 <div class="mt-4">
 <a href="https://seo.kagari.ai" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
@@ -281,7 +278,7 @@ $thum = $data["_embedded"]["wp:featuredmedia"][0]["media_details"]["sizes"]["med
 <div class="card-title">
 <h3 class="text-dark font-weight-bold">データからCVを創出する<br class="d-xl-block d-none">WEBコンサルティングサービス</h3>
 </div>
-<p class="card-text">KAGARIの解析データに基づいて、貴社の成長に合わせた最適なコンサルティングを行います。</p>
+<p class="card-text">KAGARIで培ったデータと200社以上を支援してきたノウハウをいかして貴社サイトのCV増加のためのコンサルティングを実施します。</p>
 <div class="mt-4">
 <a href="https://consulting.kagari.ai" target="_blank" class="stretched-link">もっと詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
