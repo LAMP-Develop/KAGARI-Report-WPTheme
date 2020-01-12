@@ -201,7 +201,6 @@ get_header(); ?>
 </div>
 </div>
 </div>
-
 </div>
 </section>
 <section class="sec sec-bg-gray">
