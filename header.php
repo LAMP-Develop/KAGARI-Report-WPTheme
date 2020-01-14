@@ -10,13 +10,13 @@ $wp_url = get_template_directory_uri(); ?>
 <?php wp_head(); ?>
 <?php if (!is_user_logged_in()): ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79537153-12"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79537153-10"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-79537153-12');
-</script> -->
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-79537153-10');
+</script>
 <?php endif; ?>
 </head>
 <body>
@@ -40,22 +40,22 @@ gtag('config', 'UA-79537153-12');
 <ul class="navbar-nav mr-auto">
 <li class="nav-item"><a class="nav-link text-dark" href="<?php echo $home; ?>/product/">機能紹介</a></li>
 <li class="nav-item"><a class="nav-link text-dark" href="<?php echo $home; ?>/price/">料金プラン</a></li>
-<li class="nav-item"><a class="nav-link text-dark" href="http://lamp-inc.sakura.ne.jp/kagari_re/master/works/" target="_blank">導入事例</a></li>
-<li class="nav-item"><a class="nav-link text-dark" href="http://lamp-inc.sakura.ne.jp/kagari_re/master/seminar/" target="_blank">セミナー情報</a></li>
+<li class="nav-item"><a class="nav-link text-dark" href="https://kagari.ai/works/" target="_blank">導入事例</a></li>
+<li class="nav-item"><a class="nav-link text-dark" href="https://kagari.ai/seminar/" target="_blank">セミナー情報</a></li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ヘルプ</a>
 <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown-2">
-<a class="dropdown-item" href="http://lamp-inc.sakura.ne.jp/kagari_re/master/faq/" target="_blank">よくあるご質問</a>
-<a class="dropdown-item" href="http://lamp-inc.sakura.ne.jp/kagari_re/master/contact/" target="_blank">お問い合わせ</a>
+<a class="dropdown-item" href="https://kagari.ai/faq/" target="_blank">よくあるご質問</a>
+<a class="dropdown-item" href="https://kagari.ai/contact/" target="_blank">お問い合わせ</a>
 </div>
 </li>
 </ul>
 <ul class="navbar-nav align-items-center ml-auto mt-md-0 mt-3">
 <li class="nav-item mr-md-4">
-<a class="nav-link text-primary" href="https://reporting.kagari.ai/login" target="_blank">ログイン</a>
+<a class="nav-link text-primary" href="https://analysis.kagari.ai/login" target="_blank">ログイン</a>
 </li>
 <li class="nav-item">
-<a class="btn btn-sm btn-primary" href="https://reporting.kagari.ai/register"><i class="fab fa-google mr-2"></i>無料トライアル</a>
+<a class="btn btn-sm btn-primary" href="https://analysis.kagari.ai/register"><i class="fab fa-google mr-2"></i>無料トライアル</a>
 </li>
 </ul>
 </div>

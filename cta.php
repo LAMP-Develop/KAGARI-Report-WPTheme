@@ -7,7 +7,7 @@ $wp_url = get_template_directory_uri(); ?>
 <h2 class="font-size-lg text-center text-md-left text-dark font-weight-bold mb-4">まずは無料トライアルをお試しください</h2>
 <p>クレジットカード登録不要！<br>アカウント登録後すぐにすべての機能が10日間無料でお使いいただけます。</p>
 <div class="mt-4">
-<a class="btn btn-primary" href="https://reporting.kagari.ai/register" target="_blank" role="button">まずは無料でお試しください</a>
+<a class="btn btn-primary" href="https://analysis.kagari.ai/register" target="_blank" role="button">まずは無料でお試しください</a>
 </div>
 </div>
 <div class="col-lg-5 d-none d-lg-block">

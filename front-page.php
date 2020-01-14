@@ -8,7 +8,7 @@ get_header(); ?>
 <div class="col-lg-7 mb-4 mb-lg-0">
 <h1 class="text-dark font-weight-bold mb-4">WEBサイトの<br>アクセス解析レポートを<br>30秒で自動作成</h1>
 <p>KAGARI Reportは、アクセス解析レポートが<br>自動作成できるWEB担当者向け業務効率化ツールです。</p>
-<a class="btn btn-primary" href="https://reporting.kagari.ai/register" target="_blank" role="button"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
+<a class="btn btn-primary" href="https://analysis.kagari.ai/register" target="_blank" role="button"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
 <a class="btn btn-outline-primary ml-lg-2 mt-lg-0 mt-2" href="#sample-pdf" role="button">サンプルを見る</a>
 </div>
 <div class="col-lg-5 text-center">
@@ -221,7 +221,7 @@ get_header(); ?>
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">セミナー情報</h2>
 <ul class="list-group">
 <?php
-$url = "https://lamp-inc.sakura.ne.jp/kagari_re/master/wp-json/wp/v2/seminar?_embed&filter[posts_per_page]=3";
+$url = "https://kagari.ai/wp-json/wp/v2/seminar?_embed&filter[posts_per_page]=3";
 $json = file_get_contents($url);
 $arr = json_decode($json, true);
 foreach ($arr as $data):

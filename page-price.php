@@ -62,7 +62,7 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>検索順位/キーワードのレポーティング</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>ページごとのSEO分析</p>
 <div class="mt-4">
-<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/seo/" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a class="btn btn-outline-primary" href="https://seo.kagari.ai/" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>
@@ -114,7 +114,7 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>検索順位/キーワードのレポーティング</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>ページごとのSEO分析</p>
 <div class="mt-4">
-<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/seo/" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a class="btn btn-outline-primary" href="https://seo.kagari.ai/" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>
@@ -166,7 +166,7 @@ get_header(); ?>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>検索順位/キーワードのレポーティング</p>
 <p class="card-text"><i class="fas fa-check mr-2 text-primary"></i>ページごとのSEO分析</p>
 <div class="mt-4">
-<a class="btn btn-outline-primary" href="http://lamp-inc.sakura.ne.jp/kagari_re/seo/" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
+<a class="btn btn-outline-primary" href="https://seo.kagari.ai/" target="_blank">KAGARI SEOについて詳しく<i class="fas fa-chevron-right ml-2"></i></a>
 </div>
 </div>
 </div>
@@ -181,7 +181,7 @@ get_header(); ?>
 <div class="card mb-4">
 <div class="card-body">
 <h4 class="text-center h5 font-weight-bold mb-4">お試し期間</h4>
-<p class="text-center m-0 h2 font-weight-bold">14<span class="h5 mx-1 font-weight-bold">日間</span>無料トライアル</p>
+<p class="text-center m-0 h2 font-weight-bold">10<span class="h5 mx-1 font-weight-bold">日間</span>無料トライアル</p>
 </div>
 </div>
 
