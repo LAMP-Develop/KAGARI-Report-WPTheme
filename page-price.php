@@ -4,7 +4,25 @@ $wp_url = get_template_directory_uri();
 get_header(); ?>
 <section class="sec sec-bg-gray-3">
 <div class="container">
+
+<div class="card mb-5">
+<div class="card-body">
+<h4 class="text-center h5 font-weight-bold mb-3">お試し期間</h4>
+<p class="text-center m-0 h2 font-weight-bold">10<span class="h5 mx-1 font-weight-bold">日間</span>無料トライアル</p>
+</div>
+</div>
+
 <h2 class="font-size-lg text-center text-dark font-weight-bold mb-4"><?php the_title(); ?></h2>
+
+<div class="card mb-5">
+<div class="card-body">
+<h4 class="text-center h5 font-weight-bold mb-3">トライアルから本登録完了までのながれ</h4>
+<p class="mt-4 mb-0 text-center">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/trial_flow.svg" alt="トライアルから本登録完了までのながれ">
+</p>
+</div>
+</div>
+
 <ul class="nav nav-pills mb-2 justify-content-center font-weight-bold" id="pills-tab" role="tablist">
 <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
 <a class="nav-link active" id="pills-y-tab" data-toggle="pill" href="#pills-y" role="tab" aria-controls="pills-y" aria-selected="true">年間契約</a>
@@ -18,6 +36,7 @@ get_header(); ?>
 </ul>
 </div>
 </section>
+
 <section class="sec pt-0">
 <div class="container">
 <div class="tab-content position-relative mt-n3 mt-md-n5" id="pills-tabContent">
@@ -178,14 +197,7 @@ get_header(); ?>
 </div>
 </div>
 
-<div class="card mb-4">
-<div class="card-body">
-<h4 class="text-center h5 font-weight-bold mb-4">お試し期間</h4>
-<p class="text-center m-0 h2 font-weight-bold">10<span class="h5 mx-1 font-weight-bold">日間</span>無料トライアル</p>
-</div>
-</div>
-
-<div class="card">
+<div class="card mt-5 mb-4">
 <div class="card-body">
 <h4 class="text-center h5 font-weight-bold mb-4">選べるお支払い方法</h4>
 <div class="row mx-0 justify-content-center">
@@ -198,6 +210,16 @@ get_header(); ?>
 </div>
 </div>
 </div>
+
+<div class="card">
+<div class="card-body">
+<h4 class="text-center h5 font-weight-bold mb-3">トライアルから<br class="d-md-none">本登録完了までのながれ</h4>
+<p class="mt-4 mb-0 text-center">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/trial_flow.svg" alt="トライアルから本登録完了までのながれ">
+</p>
+</div>
+</div>
+
 </div>
 </section>
 <?php get_template_part('cta'); ?>
