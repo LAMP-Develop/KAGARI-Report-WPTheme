@@ -14,15 +14,6 @@ get_header(); ?>
 
 <h2 class="font-size-lg text-center text-dark font-weight-bold mb-4"><?php the_title(); ?></h2>
 
-<div class="card mb-5">
-<div class="card-body">
-<h4 class="text-center h5 font-weight-bold mb-3">トライアルから本登録完了までのながれ</h4>
-<p class="mt-4 mb-0 text-center">
-<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/trial_flow.svg" alt="トライアルから本登録完了までのながれ">
-</p>
-</div>
-</div>
-
 <ul class="nav nav-pills mb-2 justify-content-center font-weight-bold" id="pills-tab" role="tablist">
 <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
 <a class="nav-link active" id="pills-y-tab" data-toggle="pill" href="#pills-y" role="tab" aria-controls="pills-y" aria-selected="true">年間契約</a>
