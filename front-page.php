@@ -209,7 +209,14 @@ get_header(); ?>
 <p class="text-center">個人の方から、有名な大企業まで、業種業界を問わず多くのサイトでご利用いただいています。</p>
 </div>
 <div class="d-md-flex d-none justify-content-between align-items-center mt-5">
-<?php for ($i=1; $i<=8; $i++): ?>
+<?php for ($i=1; $i<=4; $i++): ?>
+<div class="col-md col-3 text-center mx-md-3 mx-2">
+<img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/slide_logo0<?php echo $i; ?>.png" alt="導入実績<?php echo $i; ?>">
+</div>
+<?php endfor; ?>
+</div>
+<div class="d-md-flex d-none justify-content-between align-items-center mt-5">
+<?php for ($i=5; $i<=8; $i++): ?>
 <div class="col-md col-3 text-center mx-md-3 mx-2">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/slide_logo0<?php echo $i; ?>.png" alt="導入実績<?php echo $i; ?>">
 </div>
