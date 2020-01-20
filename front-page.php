@@ -208,16 +208,16 @@ get_header(); ?>
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-4 mb-3">導入事例</h2>
 <p class="text-center">個人の方から、有名な大企業まで、業種業界を問わず多くのサイトでご利用いただいています。</p>
 </div>
-<div class="d-md-flex d-none justify-content-between align-items-center mt-5">
+<div class="d-flex justify-content-between align-items-center flex-wrap mt-5">
 <?php for ($i=1; $i<=4; $i++): ?>
-<div class="col-md col-3 text-center mx-md-3 mx-2">
+<div class="col-md col-6 text-center mx-md-3 mx-0 mb-4">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/slide_logo0<?php echo $i; ?>.png" alt="導入実績<?php echo $i; ?>">
 </div>
 <?php endfor; ?>
 </div>
-<div class="d-md-flex d-none justify-content-between align-items-center mt-5">
+<div class="d-flex justify-content-between align-items-center flex-wrap">
 <?php for ($i=5; $i<=8; $i++): ?>
-<div class="col-md col-3 text-center mx-md-3 mx-2">
+<div class="col-md col-6 text-center mx-md-3 mx-0 mb-4">
 <img class="img-fluid" src="<?php echo $wp_url; ?>/lib/images/slide_logo0<?php echo $i; ?>.png" alt="導入実績<?php echo $i; ?>">
 </div>
 <?php endfor; ?>
