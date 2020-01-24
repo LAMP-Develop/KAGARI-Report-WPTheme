@@ -16,6 +16,7 @@ $wp_url = get_template_directory_uri(); ?>
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-79537153-10');
+  gtag('config', 'AW-672878991');
 </script>
 <?php endif; ?>
 </head>
