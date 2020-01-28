@@ -73,60 +73,56 @@ get_header(); ?>
 <h2 class="font-size-lg text-dark text-center font-weight-bold mb-md-5 mb-4">見やすくてわかりやすいレポートを<br class="d-none d-md-block">すぐにお届け</h2>
 <div class="row">
 <div class="col-lg order-2 order-lg-1">
-<div id="sample-btn" class="row text-center mx-0">
-<div class="col-6 col-md-4 p-1 p-md-2">
-<div class="service-card bg-white rounded-lg px-3 py-3 py-md-4 h-100 active">
-<span class="opacity-item opacity-bg-blue">
+<div id="sample-btn" class="mx-0">
+<div class="service-card bg-white rounded-lg px-3 py-1 mb-2 active">
+<span class="opacity-item text-center opacity-bg-blue d-inline-block mr-2">
 <i class="fas fa-list-alt opacity-color-blue"></i>
 </span>
-<p class="font-weight-bold h5 text-dark my-3">サマリー</p>
-<p class="text-left m-0 d-none d-md-block">サイト全体の状態を知る</p>
+<p class="font-weight-bold h6 text-dark my-3 mr-2 d-inline-block">サマリー</p>
+<p class="text-left m-0 d-none d-md-inline-block">サイト全体の状態を知る</p>
 </div>
-</div>
-<div class="col-6 col-md-4 p-1 p-md-2">
-<div class="service-card bg-white rounded-lg px-3 py-3 py-md-4 h-100">
-<span class="opacity-item opacity-bg-yellow">
+<div class="service-card bg-white rounded-lg px-3 py-1 mb-2">
+<span class="opacity-item text-center opacity-bg-yellow d-inline-block mr-2">
 <i class="fas fa-users opacity-color-yellow"></i>
 </span>
-<p class="font-weight-bold h5 text-dark my-3">ユーザー属性</p>
-<p class="text-left m-0 d-none d-md-block">サイトの訪問者の属性を知る</p>
+<p class="font-weight-bold h6 text-dark my-3 mr-2 d-inline-block">ユーザー属性</p>
+<p class="text-left m-0 d-none d-md-inline-block">サイトの訪問者の属性を知る</p>
 </div>
-</div>
-<div class="col-6 col-md-4 p-1 p-md-2">
-<div class="service-card bg-white rounded-lg px-3 py-3 py-md-4 h-100">
-<span class="opacity-item opacity-bg-purple-2">
+<div class="service-card bg-white rounded-lg px-3 py-1 mb-2">
+<span class="opacity-item text-center opacity-bg-purple-2 d-inline-block mr-2">
 <i class="fas fa-share-alt opacity-color-purple-2"></i>
 </span>
-<p class="font-weight-bold h5 text-dark my-3">流入元</p>
-<p class="text-left m-0 d-none d-md-block">ユーザーが訪れた経路を知る</p>
+<p class="font-weight-bold h6 text-dark my-3 mr-2 d-inline-block">流入元</p>
+<p class="text-left m-0 d-none d-md-inline-block">ユーザーが訪れた経路を知る</p>
 </div>
-</div>
-<div class="col-6 col-md-4 p-1 p-md-2">
-<div class="service-card bg-white rounded-lg px-3 py-3 py-md-4 h-100">
-<span class="opacity-item opacity-bg-green">
+<div class="service-card bg-white rounded-lg px-3 py-1 mb-2">
+<span class="opacity-item text-center opacity-bg-green d-inline-block mr-2">
 <i class="fas fa-pager opacity-color-green"></i>
 </span>
-<p class="font-weight-bold h5 text-dark my-3">ユーザー行動</p>
-<p class="text-left m-0 d-none d-md-block">ページごとのアクセス状況を知る</p>
+<p class="font-weight-bold h6 text-dark my-3 mr-2 d-inline-block">ユーザー行動</p>
+<p class="text-left m-0 d-none d-md-inline-block">ページごとのアクセス状況を知る</p>
 </div>
-</div>
-<div class="col-6 col-md-4 p-1 p-md-2">
-<div class="service-card bg-white rounded-lg px-3 py-3 py-md-4 h-100">
-<span class="opacity-item opacity-bg-red">
+<div class="service-card bg-white rounded-lg px-3 py-1 mb-2">
+<span class="opacity-item text-center opacity-bg-red d-inline-block mr-2">
 <i class="fas fa-flag opacity-color-red"></i>
 </span>
-<p class="font-weight-bold h5 text-dark my-3">コンバージョン</p>
-<p class="text-left m-0 d-none d-md-block">目標の達成度合いを知る</p>
+<p class="font-weight-bold h6 text-dark my-3 mr-2 d-inline-block">コンバージョン</p>
+<p class="text-left m-0 d-none d-md-inline-block">目標の達成度合いを知る</p>
 </div>
-</div>
-<div class="col-6 col-md-4 p-1 p-md-2">
-<div class="service-card bg-white rounded-lg px-3 py-3 py-md-4 h-100">
-<span class="opacity-item opacity-bg-purple">
+<div class="service-card bg-white rounded-lg px-3 py-1 mb-2">
+<span class="opacity-item text-center opacity-bg-purple d-inline-block mr-2">
 <i class="fas fa-ad opacity-color-purple"></i>
 </span>
-<p class="font-weight-bold h5 text-dark my-3">広告</p>
-<p class="text-left m-0 d-none d-md-block">リスティング広告の状況を知る</p>
+<p class="font-weight-bold h6 text-dark my-3 mr-2 d-inline-block">広告</p>
+<p class="text-left m-0 d-none d-md-inline-block">リスティング広告の状況を知る</p>
 </div>
+<div class="service-card bg-white rounded-lg d-flex align-items-center px-3 py-1 mb-2">
+<span class="opacity-item text-center opacity-bg-green mr-2">
+<i class="fas fa-search opacity-color-green"></i>
+</span>
+<p class="font-weight-bold h6 text-dark my-3 mr-2">検索</p>
+<p class="text-left m-0 d-none d-md-block">サイトの検索キーワードを知る</p>
+<div class="sec-bg-orange text-white ml-auto px-2 py-1 rounded-lg m-0 d-block">SEOプランのみ</div>
 </div>
 </div>
 <div id="sample-txt" class="tab-content">
@@ -136,6 +132,7 @@ get_header(); ?>
 <p class="my-4 tab-pane">サイト内のページごとのアクセス状況です。ページごとのページビュー数や直帰率などから、人気のあるページを確認できます。</p>
 <p class="my-4 tab-pane">サイト全体とページごとのコンバージョンの状況です。設定した目標に達成できているかを流入元ごとに確認できます。</p>
 <p class="my-4 tab-pane">リスティング広告の状況です。サイト全体の広告費用や検索語句ごとの広告効果を確認できます。</p>
+<p class="my-4 tab-pane">サイト全体の検索キーワードの状況です。キーワードごとのクリック数や表示回数、平均掲載順位などを確認できます。</p>
 </div>
 <div class="row justify-content-between mt-4 mx-0">
 <div class="col-md-5 px-2">
@@ -154,6 +151,7 @@ get_header(); ?>
 <img class="img-fluid shadow tab-pane" src="<?php echo $wp_url; ?>/lib/images/sample04.png" srcset="<?php echo $wp_url; ?>/lib/images/sample04.png 1x, <?php echo $wp_url; ?>/lib/images/sample04@2x.png 2x" alt="ユーザー行動分析">
 <img class="img-fluid shadow tab-pane" src="<?php echo $wp_url; ?>/lib/images/sample05.png" srcset="<?php echo $wp_url; ?>/lib/images/sample05.png 1x, <?php echo $wp_url; ?>/lib/images/sample05@2x.png 2x" alt="コンバージョン分析">
 <img class="img-fluid shadow tab-pane" src="<?php echo $wp_url; ?>/lib/images/sample06.png" srcset="<?php echo $wp_url; ?>/lib/images/sample06.png 1x, <?php echo $wp_url; ?>/lib/images/sample06@2x.png 2x" alt="広告分析">
+<img class="img-fluid shadow tab-pane" src="<?php echo $wp_url; ?>/lib/images/sample07.png" srcset="<?php echo $wp_url; ?>/lib/images/sample07.png 1x, <?php echo $wp_url; ?>/lib/images/sample07@2x.png 2x" alt="検索分析">
 </div>
 </div>
 </div>
