@@ -7,7 +7,7 @@ get_header(); ?>
 <div class="row">
 <div class="col-lg-7 mb-4 mb-lg-0">
 <h1 class="text-dark font-weight-bold mb-4">WEBサイトの<br>アクセス解析レポートを<br>30秒で自動作成</h1>
-<p>KAGARI Reportは、アクセス解析レポートが<br>自動作成できるWEB担当者向け業務効率化ツールです。</p>
+<p class="mb-4">KAGARI Reportは、アクセス解析レポートが<br>自動作成できるWEB担当者向け業務効率化ツールです。</p>
 <a class="btn btn-primary" href="https://analysis.kagari.ai/register" target="_blank" role="button"><i class="fab fa-google mr-2"></i>今すぐ無料トライアル</a>
 <a class="btn btn-outline-primary ml-lg-2 mt-lg-0 mt-2" href="#sample-pdf" role="button">サンプルを見る</a>
 </div>
