@@ -16,13 +16,13 @@ get_header(); ?>
 
 <ul class="nav nav-pills mb-2 justify-content-center font-weight-bold" id="pills-tab" role="tablist">
 <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
-<a class="nav-link active" id="pills-y-tab" data-toggle="pill" href="#pills-y" role="tab" aria-controls="pills-y" aria-selected="true">年間契約</a>
+<a class="nav-link active" id="pills-y-tab" data-toggle="pill" href="#pills-y" role="tab" aria-controls="pills-y" aria-selected="true">年払い</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" id="pills-hy-tab" data-toggle="pill" href="#pills-hy" role="tab" aria-controls="pills-hy" aria-selected="false">半年契約</a>
+<a class="nav-link" id="pills-hy-tab" data-toggle="pill" href="#pills-hy" role="tab" aria-controls="pills-hy" aria-selected="false">半年払い</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" id="pills-m-tab" data-toggle="pill" href="#pills-m" role="tab" aria-controls="pills-m" aria-selected="false">月額契約</a>
+<a class="nav-link" id="pills-m-tab" data-toggle="pill" href="#pills-m" role="tab" aria-controls="pills-m" aria-selected="false">月払い</a>
 </li>
 </ul>
 </div>
