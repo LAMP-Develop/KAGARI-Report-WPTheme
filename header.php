@@ -15,7 +15,12 @@ $wp_url = get_template_directory_uri(); ?>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'UA-79537153-10');
+gtag('config', 'UA-79537153-10' {
+  'linker': {
+    'domains': ['analysis.kagari.ai'],
+    'decorate_forms': true
+  }
+});
 gtag('config', 'AW-672878991');
 </script>
 <!-- Facebook Pixel Code -->
